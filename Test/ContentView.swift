@@ -22,7 +22,7 @@ struct ContentView: View {
                 printSwift(str)
             }
             Button("Swift Force Unwrap") {
-                NSLog("Swift: \(str!)")
+                NSLog("Swift: \(str!)") //Remove all Force Unwraps
                 str = "Hello WWDC!"
             }
             Button("Make Hello Nil") {
